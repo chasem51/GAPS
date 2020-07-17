@@ -76,8 +76,8 @@ function Content() {
         </Block>
       ))}
       <Block factor={1.25} offset={8}>
-        <Dom className="bottom-left" href="https://github.com/chasem51/GAPS/LICENSE" position={[-canvasWidth / 2, -canvasHeight / 2, 0]}>
-          MIT License, &copy;2020 Chase Maivald
+        <Dom className="bottom-left" href="https://github.com/chasem51/GAPS/blob/master/LICENSE" position={[-canvasWidth / 2, -canvasHeight / 2, 0]}>
+          MIT License, &copy;Chase Maivald
         </Dom>
       </Block>
     </>
@@ -108,13 +108,13 @@ function App() {
           <a className="frame__link" href="https://forms.gle/KYHnUfvLiykf3mjw8">
             Our survey
           </a>
-          <a className="frame__link" href="https://github.com/chasem51/mymusculo">
+          <a className="frame__link" href="https://github.com/chasem51/GAPS">
             Programs
           </a>
-          <a className="frame__link" href="https://github.com/chasem51/mymusculo">
+          <a className="frame__link" href="https://github.com/chasem51/GAPS">
             Contact
           </a>
-          <a className="frame__link" href="https://github.com/chasem51/mymusculo">
+          <a className="frame__link" href="https://github.com/chasem51/GAPS">
             Source
           </a>
         </div>
