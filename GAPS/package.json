@@ -1,0 +1,40 @@
+{
+  "name": "GAPS",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "main": "src/index.js",
+  "dependencies": {
+    "lerp": "1.0.3",
+    "react": "experimental",
+    "react-dom": "experimental",
+    "react-loading-skeleton": "^2.1.1",
+    "react-scripts": "3.2.0",
+    "react-three-fiber": "4.0.0-beta.12",
+    "three": "0.111.0"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "log": "firebase login",
+    "fbi": "firebase init",
+    "host": "firebase serve",
+    "dep": "firebase deploy && firebase open",
+    "open": "firebase open",
+    "clean": "rimraf ./build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "npm run clean && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
