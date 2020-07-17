@@ -2,12 +2,13 @@
 
 React-three-fiber creating a Three.js powered layout with shader effects. By Chase Maivald.
 
-![Featured Image](https://tympanus.net/codrops/wp-content/uploads/2019/12/ScrollRefractionShader_featured.jpg)
+![Featured Image](team.PNG)
 
-[Demo](https://musculo-62814.firebaseapp.com/)
+[**Host!**](https://GAPS-37aac.firebaseapp.com/)
 
 ## Installation
-
+	git clone https://github.com/chasem51/GAPS.git
+	cd GAPS
 	yarn install
 	yarn start
 
